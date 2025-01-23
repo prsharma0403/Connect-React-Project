@@ -1,0 +1,83 @@
+
+
+button {
+  width: 100px;
+  background: #27AE60;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 1px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+button:hover, button:focus {
+  box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+html {
+  height: 100%;
+  /*Image only BG fallback*/
+  
+  /*background = gradient + image pattern combo*/
+  background: 
+    linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
+    color: aliceblue;
+}
+.new-form {
+  width: 400px;
+  margin: 50px auto;
+  text-align: center;
+  position: relative;
+ 
+
+  
+}
+
+.fieldset {
+  box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+  background:rgba(40,57,101,.9);
+  border: 0 none;
+  border-radius: 3px;
+  
+  padding: 20px 30px;
+  box-sizing: border-box;
+  width: 80%;
+  margin: 0 10%;
+  
+  /*stacking fieldsets above each other*/
+  position: relative;
+}
+.cartdata {
+  background: blueviolet;
+  color: ghostwhite;
+  display: block;
+  font-weight: 500;
+}
+.whether-button button {
+  text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 16px 15px;
+    padding: 25px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background: gray;
+}
+.temp {
+  font-size: 30px;
+  margin: 18px 18px;
+  padding: 67px;
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 175px;
+  background: getColor();
+}
+.whether-display {
+  background: skyblue;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+  border-radius: 5%;
+
+}
