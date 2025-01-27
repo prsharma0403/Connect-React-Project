@@ -69,3 +69,21 @@ const myName=adventure.dog?.name;
 console.log(myName);
 
 console.log(adventure.someNonExistance?.())
+
+function uniqueString(str){
+    let maxString="";
+    let currSubstring="";
+    for(let char of str){
+        if(currSubstring.includes(char)){
+            currSubstring=currSubstring.slice(currSubstring.indexOf(char+1))
+        }
+        currSubstring +=char
+        if(currSubstring.length>maxString.length){
+            maxString=currSubstring
+            console.log(maxString.length)
+        }
+    }
+    return maxString
+}
+const input="abcdefghddfrfff";
+console.log(uniqueString(input));

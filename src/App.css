@@ -60,11 +60,12 @@ html {
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
-    margin: 16px 15px;
-    padding: 25px;
+    margin: 0px 20px 0 20px;
+    
     border-radius: 50%;
     border: 2px solid white;
     background: gray;
+    width: 55px !important;
 }
 .temp {
   font-size: 30px;

@@ -26,7 +26,7 @@ const getColor=()=>{
         backgroundColor:getColor(),
         color:"#fff",
        fontSize:"30px",
-       margin: "35px",
+       margin: "40px",
        padding: "67px", 
        width: "175px",
        border: "2px solid white",
