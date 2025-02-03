@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/react-router": "^5.1.20",
     "cra-template": "1.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "5.0.1"
+    "react-router-dom": "^6.29.0",
+    "react-scripts": "5.0.1",
+    "react-spinners": "^0.15.0"
   },
   "scripts": {
     "start": "react-scripts start",
